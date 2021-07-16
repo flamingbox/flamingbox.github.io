@@ -1,0 +1,20 @@
++
+.main .site-info{
+    float:left;
+    width: 270px;
+    height: 200px;
+    line-height: 6px;
+}
+.site-name a{
+text-decoration: none ;
+color: black;
+}
+.site-name a:hover{
+    color: blueviolet;
+}
+.site-name a:active{
+    color: beige;
+}
+.site-logo{
+    border-radius:50%;
+}
