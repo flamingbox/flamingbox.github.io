@@ -1,8 +1,9 @@
-+
 .main .site-info{
+    text-align:left;
+    margin: 35px 15px 35px 15px ;
     float:left;
-    width: 270px;
-    height: 200px;
+    width: auto;
+    height: auto;
     line-height: 6px;
 }
 .site-name a{
@@ -17,4 +18,11 @@ color: black;
 }
 .site-logo{
     border-radius:50%;
+    margin: 0%;
+}
+.site-description h6{
+    margin: 0%;
+    line-height: 15px;
+    color: rgb(179, 178, 178);
+    letter-spacing: 1px;
 }
