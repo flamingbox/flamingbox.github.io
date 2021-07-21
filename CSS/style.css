@@ -45,3 +45,10 @@ color: black;
     line-height: 40px;
     list-style-type:none;
 }
+#menu svg{
+    margin-right: 35px;
+}
+#menu a{
+    text-decoration: none ;
+    color: gainsboro;
+}
