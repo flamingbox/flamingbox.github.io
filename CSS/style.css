@@ -1,14 +1,24 @@
+body{
+    background-color: #F5F5FA;
+}
 #function{
     float: left;
     width:160px;
     margin-left:35px ;
-
+    position: fixed;
 }
 svg{
     margin-right: 15px;
 }
 #mainblock{
-    float: right;
+    float: left;
+    width: 100%;
+    left: 170px;
+}
+#rightblock{
+    width: 250px;
+    position: fixed;
+    right: 0%;
 }
 .site-info{
     text-align:left;
@@ -51,4 +61,34 @@ color: black;
 #menu a{
     text-decoration: none ;
     color: gainsboro;
+}
+#search svg{
+    margin: 0;
+}
+#search label{
+    position: relative;
+    left:20px;
+    top:22px;
+    font-size: 80%;
+    font-weight: 500;
+    color: grey;
+}
+#search button{
+    position: relative;
+    left: 160px;
+    bottom: 45px;
+    height: 30px;
+    border: 0;
+    padding: 0px 15px 0px 15px;
+    background-color: rgba(255,255,255,0);
+}
+#search input{
+    padding: 28px 46px 17px 20px;
+    border: 0px;
+    width: 139px;
+    height: 16px;
+    border-radius: 15px;
+    font-weight:600;
+    font-size: 90%;
+    box-shadow: 0 0 5px 1px grey;
 }
