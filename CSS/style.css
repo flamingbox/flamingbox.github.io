@@ -5,15 +5,15 @@ body{
     float: left;
     width:160px;
     margin-left:35px ;
+    margin-right: 20px;
     position: fixed;
     border-left: 20px;
-
 }
 svg{
     margin-right: 15px;
 }
 #mainblock{
-    width: 100%;
+    width: 50%;
     position:absolute;
     left: 220px;
 }
@@ -21,6 +21,7 @@ svg{
     width: 250px;
     position: fixed;
     right: 0%;
+    margin-left:20px ;
 }
 .site-info{
     text-align:left;
@@ -49,9 +50,14 @@ color: black;
     color: rgb(179, 178, 178);
     letter-spacing: 1px;
 }
+#menu1{
+
+    overflow-y:auto ;
+}
 #menu{
     margin: 0%;
     padding: 0%;
+    width: 160px;
 }
 #menu li{
     line-height: 40px;
@@ -93,4 +99,9 @@ color: black;
     font-weight:600;
     font-size: 90%;
     box-shadow: 0 0 5px 1px grey;
+}
+#message{
+    height: 425px;
+    overflow:auto;
+    overflow-x:hidden;
 }
