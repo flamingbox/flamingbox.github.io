@@ -6,14 +6,16 @@ body{
     width:160px;
     margin-left:35px ;
     position: fixed;
+    border-left: 20px;
+
 }
 svg{
     margin-right: 15px;
 }
 #mainblock{
-    float: left;
     width: 100%;
-    left: 170px;
+    position:absolute;
+    left: 220px;
 }
 #rightblock{
     width: 250px;
