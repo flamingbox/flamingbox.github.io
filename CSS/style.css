@@ -111,3 +111,15 @@ color: black;
     overflow:auto;
     overflow-x:hidden;
 }
+#friendlink a{
+    text-decoration:none;
+    color:black;
+    font-weight: 600;
+}
+#friendlink{
+    position:absolute;
+    left: 220px;
+}
+#friendlink a:hover{
+    color: blue;
+}
