@@ -110,7 +110,7 @@ color: black;
     outline: none;
 }
 #message{
-    height: 240px;
+    height: 250px;
     overflow:auto;
     overflow-x:hidden;
 }
