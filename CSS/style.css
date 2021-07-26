@@ -107,9 +107,17 @@ color: black;
     outline: none;
 }
 #message{
-    height: 425px;
+    height: 200px;
     overflow:auto;
     overflow-x:hidden;
+}
+#leave{
+    position:fixed;
+    right: 40px;
+    bottom: 10px;
+}
+#leave textarea{
+    width: 205px;
 }
 #friendlink a{
     text-decoration:none;

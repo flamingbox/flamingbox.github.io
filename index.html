@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,10 @@
     <title>FlamingboxBlog</title>
     <link rel="icon" href="img/title.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/title.ico" type="image/x-icon">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="JavaScript/function.js"></script>
 </head>
+
 <body>
     <script src="JavaScript/main.js" async></script>
     <div id="function">
@@ -146,7 +150,7 @@
     <div id="mainblock">
         <h1>HELLO MOTHER FUCKER</h1>
         <h1>博客还没搭完，瞅啥？</h1>
-        <img src="img/1.png" alt="error"  width="50%"  id="tp">
+        <img src="img/1.png" alt="error" width="50%" id="tp">
         <input type="button" value="点击切换" id="btn"> <br>
         <br>
         <br>
@@ -187,12 +191,14 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt totam ratione inventore, asperiores
                 laboriosam nisi debitis impedit labore laborum animi dolorem iste quasi neque, deleniti et quaerat.
                 Architecto, autem iste!</p>
-            <form action="form.js" method="post">
-                <label>请为我留言：</label> <br>
-                <textarea cols="30" rows="5" style="resize: none;"></textarea><br>
-                <input type="button" name="submit" value="提交"> <br>
-            </form>
         </div>
+        <form action="form.js" method="post" id="leave">
+            <label>请为我留言：</label> <br>
+            <textarea rows="5" style="resize: none;"></textarea><br>
+            <input type="button" name="submit" value="提交"> <br>
+        </form>
+
     </div>
 </body>
+
 </html>

@@ -36,3 +36,9 @@ function setUserName() {
   myButton.onclick = function() {
     setUserName();
  }
+ window.onresize = function(){
+    console.log('可视宽'+ document.documentElement.clientWidth);
+    
+    console.log('可视高' + document.documentElement.clientHeight);
+    
+    }
