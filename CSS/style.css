@@ -31,6 +31,12 @@ svg{
     border-radius: 35px;
     box-shadow: 0 0 5px 1px rgb(206, 206, 206);
 }
+#demo h2{
+    margin: 0;
+}
+#demo p{
+    margin: 0; 
+}
 #fox{
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
