@@ -7,15 +7,33 @@ body{
     margin-left:35px ;
     margin-right: 20px;
     position: fixed;
-    border-left: 20px;
+
+}
+function::before{
+    content:"";
+    position: absolute;
+    bottom: 25%;
+	right: 0%;
+	height: 250px;
+	width: 1px;
+	background-color: grey;
 }
 svg{
     margin-right: 15px;
 }
 #mainblock{
-    width: 50%;
+    width: 600px;
     position:absolute;
-    left: 220px;
+    left: 240px;
+}
+#demo{
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0 0 5px 1px rgb(206, 206, 206);
+}
+#fox{
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
 }
 #rightblock{
     width: 250px;
@@ -53,6 +71,7 @@ color: black;
 #menu1{
 
     overflow-y:auto ;
+    overflow-x: hidden;
 }
 #menu{
     margin: 0%;
@@ -111,9 +130,13 @@ color: black;
 }
 #message{
     height: 250px;
+    width: 110%;
+    margin-right:20px;
     overflow:scroll;
     overflow-x:hidden;
+    border-radius: 25px;
 }
+
 #leave{
     position:fixed;
     right: 40px;

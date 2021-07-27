@@ -44,4 +44,10 @@ window.onresize = function () {
     var msg = document.getElementById("message");
     msg.style.height=document.documentElement.clientHeight-285+"px";
     console.log('字框高' + msg.style.height);
+    var menu = document.getElementById("menu");
+    menu.style.height=document.documentElement.clientHeight-270+"px";
+    console.log('菜单高' + menu.style.height);
+    var mainblock = document.getElementById("mainblock");
+    mainblock.style.width=document.documentElement.clientWidth-548+"px";
+    console.log('主体宽' + mainblock.style.width);
 }
