@@ -25,16 +25,33 @@ svg{
     width: 600px;
     position:absolute;
     left: 240px;
+    top :30px;
 }
-#demo{
+#mainblock{
+    float: left;
+}
+#demo1{
     background-color: white;
     border-radius: 35px;
     box-shadow: 0 0 5px 1px rgb(206, 206, 206);
+    margin-bottom: 20px;
 }
-#demo h2{
+#demo1 h2{
     margin: 0;
 }
-#demo p{
+#demo1 p{
+    margin: 0; 
+}
+#demo2{
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0 0 5px 1px rgb(206, 206, 206);
+    margin-bottom: 20px;
+}
+#demo2 h2{
+    margin: 0;
+}
+#demo2 p{
     margin: 0; 
 }
 #fox{
@@ -141,6 +158,11 @@ color: black;
     overflow:scroll;
     overflow-x:hidden;
     border-radius: 25px;
+}
+#messagebk{
+    margin-top: 20px;
+    background-color: white;
+    width: auto;
 }
 
 #leave{
