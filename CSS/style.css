@@ -30,31 +30,19 @@ svg{
 #mainblock{
     float: left;
 }
-#demo1{
+.demo{
     background-color: white;
     border-radius: 35px;
     box-shadow: 0 0 5px 1px rgb(206, 206, 206);
     margin-bottom: 20px;
 }
-#demo1 h2{
+.demo h2{
     margin: 0;
 }
-#demo1 p{
+.demo p{
     margin: 0; 
 }
-#demo2{
-    background-color: white;
-    border-radius: 35px;
-    box-shadow: 0 0 5px 1px rgb(206, 206, 206);
-    margin-bottom: 20px;
-}
-#demo2 h2{
-    margin: 0;
-}
-#demo2 p{
-    margin: 0; 
-}
-#fox{
+.mainpic{
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
 }
@@ -90,6 +78,7 @@ color: black;
     line-height: 15px;
     color: rgb(179, 178, 178);
     letter-spacing: 1px;
+    
 }
 #menu1{
 
@@ -158,11 +147,15 @@ color: black;
     overflow:scroll;
     overflow-x:hidden;
     border-radius: 25px;
+    display: flex;
+
 }
 #messagebk{
-    margin-top: 20px;
     background-color: white;
-    width: auto;
+    width: 205px;
+    height:auto;
+    position:relative;
+    top: -15px;
 }
 
 #leave{
@@ -185,3 +178,56 @@ color: black;
 #friendlink a:hover{
     color: blue;
 }
+#tags{
+    position: relative;
+    width: 205px;
+}
+#tags span{
+    position: absolute;
+    top: -2px;
+}
+ 
+#tags p{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding:5px 10px 5px 10px;
+    width:max-content;
+    border: 0px;
+    border-radius:6px 0px 6px 0px;
+    font-weight:400;
+    font-size: 90%;
+    box-shadow: 0 0 4px 1px rgba(145, 145, 145, 0.151);
+    display:inline-table;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+#tags a{
+    text-decoration: none;
+}
+#tags p:hover{
+    background-color: grey;
+    color: white;
+}
+#tags a:{
+
+}
+.button-content:before{ 
+    content:'';
+  width:20px;  
+  height: 0%;  
+  border: 15px solid;  
+  border-color: transparent #B2DE34 transparent transparent ;   
+  position: absolute;  
+  right:100px;  
+  top: 0px;  
+}  
+.button-content{  
+  width: 100px;  
+  height: 30px;  
+  background-color: #B2DE34;  
+  font-size: small;  
+  line-height: 30px;  
+  text-align: center;  
+  position:relative;  
+  margin-bottom:10px ;
+} 
