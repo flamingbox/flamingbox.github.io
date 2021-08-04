@@ -1,4 +1,8 @@
-
+var nta = document.getElementById("NightAnimation");
+   nta.style.width=document.documentElement.clientWidth+"px";
+    console.log('遮罩宽' + nta.style.width);
+    nta.style.height=document.documentElement.clientHeight+"px";
+    console.log('遮罩高' + nta.style.height);
 window.onresize = function () {
     console.log('可视宽' + document.documentElement.clientWidth);
 
@@ -15,4 +19,14 @@ window.onresize = function () {
         mainpic[i].style.width=mainblock.style.width;
     }
     console.log('照片宽' + mainpic[0,1].style.width);
+    var nta = document.getElementById("NightAnimation");
+   nta.style.width=document.documentElement.clientWidth+"px";
+    console.log('遮罩宽' + nta.style.width);
+    nta.style.height=document.documentElement.clientHeight+"px";
+    console.log('遮罩高' + nta.style.height);
 }
+nightbuttom.onclick=function(){
+nta.style.display="block"
+setTimeout(function(){nta.style.display="none"},2000)
+}
+
