@@ -26,7 +26,7 @@ window.onresize = function () {
     console.log('遮罩高' + nta.style.height);
 }
 nightbuttom.onclick=function(){
-nta.style.display="block"
+nta.style.display="flex"
 setTimeout(function(){nta.style.display="none"},2000)
 }
 

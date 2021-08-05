@@ -1,15 +1,6 @@
 body{
     background-color: #F5F5FA;
 }
-
-#NightAnimation{
-    background-color: rgba(0,0,0,1);
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 1000;
-    display: none;
-}
 #function{
     float: left;
     width:160px;
@@ -244,5 +235,95 @@ color: black;
   text-align: center;  
   position:relative;  
   margin-bottom:10px;
-  
 } 
+.NightAnimation{
+    margin: 0;
+    padding: 0;
+    background: #00034b;
+    position: fixed;
+    display: none;
+    z-index: 1500;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+  .ghost {
+    position: relative;
+    width: 150px;
+    height: 225px;
+    background: #ffffff;
+    box-shadow: -17px 0px 0px #dbdbdb inset, 0 0 50px #5939db;
+    border-radius: 100px 100px 0 0;
+    animation: float 2s infinite;
+  }
+
+  .ghost__eyes {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 70px 0 0;
+    width: 90px;
+    height: 20px;
+  }
+
+  .ghost__eyes:before,
+  .ghost__eyes:after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 25px;
+    background: #00034b;
+    border-radius: 50%;
+  }
+
+  .ghost__dimples {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 35px 0 0;
+    width: 130px;
+    height: 20px;
+  }
+
+  .ghost__dimples:before,
+  .ghost__dimples:after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ffbeff;
+    border-radius: 50%;
+  }
+
+  .ghost__feet {
+    width: 100%;
+    position: absolute;
+    bottom: -13px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ghost__feet-foot {
+    width: 25%;
+    height: 26px;
+    border-radius: 50%;
+    background: #ffffff;
+  }
+
+  .ghost__feet-foot:last-child {
+    background-image: linear-gradient(to right, #ffffff 55%, #dbdbdb 45%);
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+
