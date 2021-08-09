@@ -242,6 +242,7 @@ color: black;
     background: #00034b;
     position: fixed;
     bottom: 0px;
+    left:0px;
     display: none;
     z-index: 1500;
     justify-content: center;
@@ -327,4 +328,7 @@ color: black;
       transform: translateY(-15px);
     }
   }
-
+#SunAnimation{
+    background-color: orange;
+    z-index: 1500; 
+}
