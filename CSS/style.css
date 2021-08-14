@@ -1,5 +1,11 @@
+:root{
+--bk-color:#F5F5FA;
+--card-bk-color:white;
+--word-color:black;
+--menu-color:gainsboro;
+}
 body{
-    background-color: #F5F5FA;
+    background-color: var(--bk-color);
 }
 #function{
     float: left;
@@ -8,15 +14,6 @@ body{
     margin-right: 20px;
     position: fixed;
 
-}
-function::before{
-    content:"";
-    position: absolute;
-    bottom: 25%;
-	right: 0%;
-	height: 250px;
-	width: 1px;
-	background-color: grey;
 }
 svg{
     margin-right: 15px;
@@ -31,7 +28,7 @@ svg{
     float: left;
 }
 .demo{
-    background-color: white;
+    background-color: var(--card-bk-color);
     border-radius: 35px;
     box-shadow: 0 0 5px 1px rgb(206, 206, 206);
     margin-bottom: 20px;
@@ -61,7 +58,7 @@ svg{
 }
 .site-name a{
 text-decoration: none ;
-color: black;
+color: var(--word-color);
 }
 .site-name a:hover{
     color: blueviolet;
@@ -96,10 +93,12 @@ color: black;
 }
 #menu svg{
     margin-right: 35px;
+    position:relative;
+    top:3px;
 }
 #menu a{
     text-decoration: none ;
-    color: gainsboro;
+    color: var(--menu-color);
 }
 #search p{
     margin-bottom:0px ;
@@ -188,8 +187,8 @@ color: black;
 }
  
 #tags p{
-    color: black;
-    background-color: rgb(255, 255, 255);
+    color: var(--word-color);
+    background-color: var(--card-bk-color);
     padding:5px 10px 5px 10px;
     width:max-content;
     border: 0px;
